@@ -12,6 +12,6 @@ private:
 	int clouds; // 100
 public:
 	Weather(std::string, double, double, double, std::string, double, int);
-
+	void printInfo() const;
 };
 
